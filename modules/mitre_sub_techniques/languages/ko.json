@@ -6,7 +6,7 @@
         },
         "FIELDS": {
             "ALERTS": "알림",
-            "INCIDENTS": "사건",
+            "INCIDENTS": "사례",
             "DETECTION": "탐지",
             "VERSION": "버전",
             "MITREID": "Mitre ID",

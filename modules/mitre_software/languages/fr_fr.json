@@ -5,7 +5,7 @@
             "PLURAL_NAME": "Logiciels"
         },
         "FIELDS": {
-            "INCIDENTS": "Incidents",
+            "INCIDENTS": "Cas",
             "ALERTS": "Alertes",
             "MITREID": "ID Mitre",
             "TYPE": "Type",

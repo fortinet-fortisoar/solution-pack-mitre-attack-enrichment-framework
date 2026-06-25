@@ -33,7 +33,7 @@
 
 | Name                  | Description                                                                                                                           |
 |:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------|
-| MITRE ATT&CK Matrices | Displays MITRE Matrices which are visual representations to evaluate and compare tools, techniques, and Sub-techniques of adversaries |
+| SOC MITRE ATT&CK Maps | Displays MITRE Matrices which are visual representations to evaluate and compare tools, techniques, and Sub-techniques of adversaries |
 
 ## Widget
 

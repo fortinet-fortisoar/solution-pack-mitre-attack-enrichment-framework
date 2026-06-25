@@ -636,7 +636,7 @@
             "skipSerialization": false,
             "displayName": "{{Incidents}}",
             "descriptions": {
-                "singular": "Incidents"
+                "singular": "Cases"
             }
         }
     ],

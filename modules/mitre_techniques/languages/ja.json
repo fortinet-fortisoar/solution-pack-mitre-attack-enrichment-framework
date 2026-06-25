@@ -5,7 +5,7 @@
             "PLURAL_NAME": "テクニック"
         },
         "FIELDS": {
-            "INCIDENTS": "インシデント",
+            "INCIDENTS": "ケース",
             "LASTMODIFIED": "最終更新",
             "MITIGATIONS": "緩和策",
             "ALERTS": "アラート",

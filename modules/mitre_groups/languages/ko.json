@@ -18,7 +18,7 @@
             "CREATED": "생성일",
             "ALIASES": "관련 그룹",
             "ALERTS": "알림",
-            "INCIDENTS": "인시던트"
+            "INCIDENTS": "사례"
         }
     }
 }
