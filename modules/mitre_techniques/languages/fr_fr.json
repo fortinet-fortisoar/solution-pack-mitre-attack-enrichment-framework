@@ -5,7 +5,7 @@
             "PLURAL_NAME": "Techniques"
         },
         "FIELDS": {
-            "INCIDENTS": "Incidents",
+            "INCIDENTS": "Cas",
             "LASTMODIFIED": "Dernière modification",
             "MITIGATIONS": "Mesures d’atténuation",
             "ALERTS": "Alertes",

@@ -5,7 +5,7 @@
             "PLURAL_NAME": "軟體"
         },
         "FIELDS": {
-            "INCIDENTS": "事件",
+            "INCIDENTS": "案件",
             "ALERTS": "警報",
             "MITREID": "Mitre ID",
             "TYPE": "類型",

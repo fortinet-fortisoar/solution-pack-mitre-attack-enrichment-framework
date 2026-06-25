@@ -5,7 +5,7 @@
             "PLURAL_NAME": "ソフトウェア"
         },
         "FIELDS": {
-            "INCIDENTS": "インシデント",
+            "INCIDENTS": "ケース",
             "ALERTS": "アラート",
             "MITREID": "Mitre ID",
             "TYPE": "タイプ",

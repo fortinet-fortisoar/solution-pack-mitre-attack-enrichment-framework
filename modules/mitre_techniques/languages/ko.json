@@ -5,7 +5,7 @@
             "PLURAL_NAME": "기술"
         },
         "FIELDS": {
-            "INCIDENTS": "사건",
+            "INCIDENTS": "사례",
             "LASTMODIFIED": "최종 수정일",
             "MITIGATIONS": "완화 조치",
             "ALERTS": "알림",

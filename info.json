@@ -1,6 +1,6 @@
 {
     "name": "mITREATT&CKEnrichmentFramework",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "type": "solutionpack",
     "local": true,
     "label": "MITRE ATT&CK Enrichment Framework",
@@ -16,11 +16,11 @@
     "certified": "true",
     "publisher": "Fortinet",
     "description": "Solution Pack for leveraging the MITRE ATT&CK Knowledge Base in FortiSOAR.",
-    "help": "https://github.com/fortinet-fortisoar/solution-pack-mitre-attack-enrichment-framework/blob/release/2.2.1/README.md",
+    "help": "https://github.com/fortinet-fortisoar/solution-pack-mitre-attack-enrichment-framework/blob/release/2.2.2/README.md",
     "category": [],
     "supportInfo": "Fortinet Customer Support",
     "iconLarge": null,
-    "fsrMinCompatibility": "7.2.0",
+    "fsrMinCompatibility": "7.6.5",
     "date": "2023-06-23T06:01:13+00:00",
     "contents": {
         "picklistNames": [
@@ -141,7 +141,7 @@
         "globalVariables": [],
         "dashboards": [
             {
-                "name": "MITRE ATT&CK Matrices"
+                "name": "SOC MITRE ATT&CK Maps"
             }
         ],
         "connectors": [

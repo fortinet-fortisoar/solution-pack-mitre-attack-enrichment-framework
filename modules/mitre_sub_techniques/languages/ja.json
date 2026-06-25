@@ -6,7 +6,7 @@
         },
         "FIELDS": {
             "ALERTS": "アラート",
-            "INCIDENTS": "インシデント",
+            "INCIDENTS": "ケース",
             "DETECTION": "検知",
             "VERSION": "バージョン",
             "MITREID": "Mitre ID",

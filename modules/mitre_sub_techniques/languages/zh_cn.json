@@ -6,7 +6,7 @@
         },
         "FIELDS": {
             "ALERTS": "警报",
-            "INCIDENTS": "事件",
+            "INCIDENTS": "案件",
             "DETECTION": "检测",
             "VERSION": "版本",
             "MITREID": "Mitre ID",
