@@ -1,0 +1,26 @@
+{
+    "MITRE_SUB_TECHNIQUES": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "Sub-technique",
+            "PLURAL_NAME": "Sub-techniques"
+        },
+        "FIELDS": {
+            "ALERTS": "Alerts",
+            "INCIDENTS": "Incidents",
+            "DETECTION": "Detection",
+            "VERSION": "Version",
+            "MITREID": "Mitre ID",
+            "PARENTTECHNIQUE": "Sub-technique of",
+            "NAME": "Name",
+            "DESCRIPTION": "Description",
+            "MYNOTES": "My Notes",
+            "SOFTWARE": "Software",
+            "LASTMODIFIED": "Last Modified",
+            "CREATED": "Created",
+            "PLATFORMS": "Platforms",
+            "PERMISSIONSREQUIRED": "Permissions Required",
+            "CAPECID": "CAPEC ID",
+            "DATASOURCES": "Data Sources"
+        }
+    }
+}

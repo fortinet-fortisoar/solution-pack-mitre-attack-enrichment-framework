@@ -1,0 +1,19 @@
+{
+    "MITRE_MITIGATIONS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "완화 조치",
+            "PLURAL_NAME": "완화 조치 목록"
+        },
+        "FIELDS": {
+            "LASTMODIFIED": "최종 수정일",
+            "MITREID": "Mitre ID",
+            "INCIDENTS": "인시던트",
+            "ALERTS": "알림",
+            "NAME": "이름",
+            "DESCRIPTION": "설명",
+            "VERSION": "버전",
+            "CREATED": "생성일",
+            "TECHNIQUES": "기법"
+        }
+    }
+}

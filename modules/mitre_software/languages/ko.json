@@ -1,0 +1,26 @@
+{
+    "MITRE_SOFTWARE": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "소프트웨어",
+            "PLURAL_NAME": "소프트웨어"
+        },
+        "FIELDS": {
+            "INCIDENTS": "사건",
+            "ALERTS": "알림",
+            "MITREID": "Mitre ID",
+            "TYPE": "유형",
+            "MYNOTES": "내 메모",
+            "ALIASES": "관련 소프트웨어",
+            "NAME": "이름",
+            "PLATFORM": "플랫폼",
+            "CONTRIBUTORS": "기여자",
+            "VERSION": "버전",
+            "GROUPS": "그룹",
+            "TECHNIQUES": "기술",
+            "DESCRIPTION": "설명",
+            "SUBTECHNIQUES": "하위 기술",
+            "CREATED": "생성일",
+            "LASTMODIFIED": "최종 수정일"
+        }
+    }
+}

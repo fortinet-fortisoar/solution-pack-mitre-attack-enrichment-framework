@@ -1,0 +1,26 @@
+{
+    "MITRE_SUB_TECHNIQUES": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "하위 기술",
+            "PLURAL_NAME": "하위 기술"
+        },
+        "FIELDS": {
+            "ALERTS": "알림",
+            "INCIDENTS": "사건",
+            "DETECTION": "탐지",
+            "VERSION": "버전",
+            "MITREID": "Mitre ID",
+            "PARENTTECHNIQUE": "상위 기술",
+            "NAME": "이름",
+            "DESCRIPTION": "설명",
+            "MYNOTES": "내 메모",
+            "SOFTWARE": "소프트웨어",
+            "LASTMODIFIED": "마지막 수정",
+            "CREATED": "생성일",
+            "PLATFORMS": "플랫폼",
+            "PERMISSIONSREQUIRED": "필요 권한",
+            "CAPECID": "CAPEC ID",
+            "DATASOURCES": "데이터 소스"
+        }
+    }
+}

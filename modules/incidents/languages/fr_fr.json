@@ -1,0 +1,16 @@
+{
+    "INCIDENTS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "Incident",
+            "PLURAL_NAME": "Incidents"
+        },
+        "FIELDS": {
+            "MITRETECHNIQUES": "Techniques",
+            "MITRESUBTECHNIQUES": "Sous-techniques",
+            "MITREMITIGATIONS": "Atténuations",
+            "MITREGROUPS": "Groupes",
+            "MITRETACTICS": "Tactiques",
+            "MITRESOFTWARE": "Logiciels"
+        }
+    }
+}

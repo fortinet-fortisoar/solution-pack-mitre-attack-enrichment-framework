@@ -1,0 +1,20 @@
+{
+    "MITRE_TACTICS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "Tactique",
+            "PLURAL_NAME": "Tactiques"
+        },
+        "FIELDS": {
+            "MITREID": "ID Mitre",
+            "DOMAINS": "Domaines",
+            "NAME": "Nom",
+            "DESCRIPTION": "Description",
+            "MYNOTES": "Mes Notes",
+            "TECHNIQUES": "Techniques",
+            "CREATED": "Créé",
+            "LASTMODIFIED": "Dernière Modification",
+            "ALERTS": "Alertes",
+            "INCIDENTS": "Incidents"
+        }
+    }
+}

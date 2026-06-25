@@ -1,0 +1,16 @@
+{
+    "INCIDENTS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "事件",
+            "PLURAL_NAME": "事件"
+        },
+        "FIELDS": {
+            "MITRETECHNIQUES": "技术",
+            "MITRESUBTECHNIQUES": "子技术",
+            "MITREMITIGATIONS": "缓解措施",
+            "MITREGROUPS": "组",
+            "MITRETACTICS": "策略",
+            "MITRESOFTWARE": "软件"
+        }
+    }
+}

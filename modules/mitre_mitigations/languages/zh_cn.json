@@ -1,0 +1,19 @@
+{
+    "MITRE_MITIGATIONS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "缓解措施",
+            "PLURAL_NAME": "缓解措施列表"
+        },
+        "FIELDS": {
+            "LASTMODIFIED": "最后修改时间",
+            "MITREID": "Mitre ID",
+            "INCIDENTS": "事件",
+            "ALERTS": "告警",
+            "NAME": "名称",
+            "DESCRIPTION": "描述",
+            "VERSION": "版本",
+            "CREATED": "创建时间",
+            "TECHNIQUES": "技术"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "MITRE_MITIGATIONS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "Atténuation",
+            "PLURAL_NAME": "Atténuations"
+        },
+        "FIELDS": {
+            "LASTMODIFIED": "Dernière modification",
+            "MITREID": "ID Mitre",
+            "INCIDENTS": "Incidents",
+            "ALERTS": "Alertes",
+            "NAME": "Nom",
+            "DESCRIPTION": "Description",
+            "VERSION": "Version",
+            "CREATED": "Date de création",
+            "TECHNIQUES": "Techniques"
+        }
+    }
+}

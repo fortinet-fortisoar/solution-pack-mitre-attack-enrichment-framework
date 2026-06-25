@@ -1,0 +1,24 @@
+{
+    "MITRE_GROUPS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "グループ",
+            "PLURAL_NAME": "グループ"
+        },
+        "FIELDS": {
+            "MITREID": "Mitre ID",
+            "NAME": "名前",
+            "DESCRIPTION": "説明",
+            "NOTES": "自分のメモ",
+            "VERSION": "バージョン",
+            "CONTRIBUTORS": "貢献者",
+            "URL": "URL",
+            "TECHNIQUES": "技術",
+            "SOFTWARE": "ソフトウェア",
+            "LASTMODIFIED": "最終更新日",
+            "CREATED": "作成日",
+            "ALIASES": "関連グループ",
+            "ALERTS": "アラート",
+            "INCIDENTS": "インシデント"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "MITRE_TECHNIQUES": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "技術",
+            "PLURAL_NAME": "技術"
+        },
+        "FIELDS": {
+            "INCIDENTS": "事件",
+            "LASTMODIFIED": "最後修改",
+            "MITIGATIONS": "緩解措施",
+            "ALERTS": "警示",
+            "CREATED": "建立時間",
+            "NOTES": "我的筆記",
+            "GROUPS": "群組",
+            "VERSION": "版本",
+            "PLATFORMS": "平台",
+            "DETECTION": "偵測",
+            "PERMISSIONSREQUIRED": "所需權限",
+            "DATASOURCES": "資料來源",
+            "MITREID": "Mitre ID",
+            "DESCRIPTION": "說明",
+            "NAME": "名稱",
+            "TECHNIQUES": "子技術",
+            "SOFTWARE": "軟體",
+            "TACTICS": "戰術",
+            "CAPECID": "CAPEC ID"
+        }
+    }
+}

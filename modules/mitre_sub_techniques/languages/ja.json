@@ -1,0 +1,26 @@
+{
+    "MITRE_SUB_TECHNIQUES": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "サブテクニック",
+            "PLURAL_NAME": "サブテクニック"
+        },
+        "FIELDS": {
+            "ALERTS": "アラート",
+            "INCIDENTS": "インシデント",
+            "DETECTION": "検知",
+            "VERSION": "バージョン",
+            "MITREID": "Mitre ID",
+            "PARENTTECHNIQUE": "サブテクニック（親）",
+            "NAME": "名称",
+            "DESCRIPTION": "説明",
+            "MYNOTES": "メモ",
+            "SOFTWARE": "ソフトウェア",
+            "LASTMODIFIED": "最終更新",
+            "CREATED": "作成日",
+            "PLATFORMS": "プラットフォーム",
+            "PERMISSIONSREQUIRED": "必要な権限",
+            "CAPECID": "CAPEC ID",
+            "DATASOURCES": "データソース"
+        }
+    }
+}

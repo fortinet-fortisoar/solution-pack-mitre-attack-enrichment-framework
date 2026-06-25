@@ -1,0 +1,16 @@
+{
+    "ALERTS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "警示",
+            "PLURAL_NAME": "警示"
+        },
+        "FIELDS": {
+            "MITREMITIGATIONS": "缓解措施",
+            "MITRETACTICS": "策略",
+            "MITREGROUPS": "组",
+            "MITRESOFTWARE": "软件",
+            "MITRE_TECHNIQUES": "技术",
+            "MITRE_SUB_TECHNIQUES": "子技术"
+        }
+    }
+}

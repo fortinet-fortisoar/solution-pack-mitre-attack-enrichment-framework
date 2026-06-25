@@ -1,0 +1,16 @@
+{
+    "INCIDENTS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "사건",
+            "PLURAL_NAME": "사건들"
+        },
+        "FIELDS": {
+            "MITRETECHNIQUES": "기법",
+            "MITRESUBTECHNIQUES": "하위 기법",
+            "MITREMITIGATIONS": "완화책",
+            "MITREGROUPS": "그룹",
+            "MITRETACTICS": "전술",
+            "MITRESOFTWARE": "소프트웨어"
+        }
+    }
+}

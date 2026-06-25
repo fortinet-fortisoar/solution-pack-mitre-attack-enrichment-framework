@@ -1,0 +1,29 @@
+{
+    "MITRE_TECHNIQUES": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "テクニック",
+            "PLURAL_NAME": "テクニック"
+        },
+        "FIELDS": {
+            "INCIDENTS": "インシデント",
+            "LASTMODIFIED": "最終更新",
+            "MITIGATIONS": "緩和策",
+            "ALERTS": "アラート",
+            "CREATED": "作成日",
+            "NOTES": "マイノート",
+            "GROUPS": "グループ",
+            "VERSION": "バージョン",
+            "PLATFORMS": "プラットフォーム",
+            "DETECTION": "検知",
+            "PERMISSIONSREQUIRED": "必要な権限",
+            "DATASOURCES": "データソース",
+            "MITREID": "Mitre ID",
+            "DESCRIPTION": "説明",
+            "NAME": "名前",
+            "TECHNIQUES": "サブテクニック",
+            "SOFTWARE": "ソフトウェア",
+            "TACTICS": "戦術",
+            "CAPECID": "CAPEC ID"
+        }
+    }
+}

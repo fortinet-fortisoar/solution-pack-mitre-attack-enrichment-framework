@@ -1,0 +1,19 @@
+{
+    "MITRE_MITIGATIONS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "Mitigation",
+            "PLURAL_NAME": "Mitigations"
+        },
+        "FIELDS": {
+            "LASTMODIFIED": "Last Modified",
+            "MITREID": "Mitre ID",
+            "INCIDENTS": "Incidents",
+            "ALERTS": "Alerts",
+            "NAME": "Name",
+            "DESCRIPTION": "Description",
+            "VERSION": "Version",
+            "CREATED": "Created",
+            "TECHNIQUES": "Techniques"
+        }
+    }
+}

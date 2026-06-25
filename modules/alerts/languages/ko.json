@@ -1,0 +1,16 @@
+{
+    "ALERTS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "알림",
+            "PLURAL_NAME": "알림"
+        },
+        "FIELDS": {
+            "MITREMITIGATIONS": "완화 조치",
+            "MITRETACTICS": "전술",
+            "MITREGROUPS": "그룹",
+            "MITRESOFTWARE": "소프트웨어",
+            "MITRE_TECHNIQUES": "기법",
+            "MITRE_SUB_TECHNIQUES": "하위 기법"
+        }
+    }
+}

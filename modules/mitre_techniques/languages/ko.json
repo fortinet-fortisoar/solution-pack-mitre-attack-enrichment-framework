@@ -1,0 +1,29 @@
+{
+    "MITRE_TECHNIQUES": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "기술",
+            "PLURAL_NAME": "기술"
+        },
+        "FIELDS": {
+            "INCIDENTS": "사건",
+            "LASTMODIFIED": "최종 수정일",
+            "MITIGATIONS": "완화 조치",
+            "ALERTS": "알림",
+            "CREATED": "생성일",
+            "NOTES": "내 메모",
+            "GROUPS": "그룹",
+            "VERSION": "버전",
+            "PLATFORMS": "플랫폼",
+            "DETECTION": "탐지",
+            "PERMISSIONSREQUIRED": "필요 권한",
+            "DATASOURCES": "데이터 소스",
+            "MITREID": "Mitre ID",
+            "DESCRIPTION": "설명",
+            "NAME": "이름",
+            "TECHNIQUES": "하위 기술",
+            "SOFTWARE": "소프트웨어",
+            "TACTICS": "전술",
+            "CAPECID": "CAPEC ID"
+        }
+    }
+}

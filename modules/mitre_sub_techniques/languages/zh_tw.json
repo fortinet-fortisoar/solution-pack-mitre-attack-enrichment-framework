@@ -1,0 +1,26 @@
+{
+    "MITRE_SUB_TECHNIQUES": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "子技術",
+            "PLURAL_NAME": "子技術"
+        },
+        "FIELDS": {
+            "ALERTS": "警報",
+            "INCIDENTS": "事件",
+            "DETECTION": "偵測",
+            "VERSION": "版本",
+            "MITREID": "Mitre ID",
+            "PARENTTECHNIQUE": "所屬技術",
+            "NAME": "名稱",
+            "DESCRIPTION": "描述",
+            "MYNOTES": "我的筆記",
+            "SOFTWARE": "軟體",
+            "LASTMODIFIED": "最後修改",
+            "CREATED": "建立時間",
+            "PLATFORMS": "平台",
+            "PERMISSIONSREQUIRED": "所需權限",
+            "CAPECID": "CAPEC ID",
+            "DATASOURCES": "資料來源"
+        }
+    }
+}

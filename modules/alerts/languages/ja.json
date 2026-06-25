@@ -1,0 +1,16 @@
+{
+    "ALERTS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "アラート",
+            "PLURAL_NAME": "アラート"
+        },
+        "FIELDS": {
+            "MITREMITIGATIONS": "緩和策",
+            "MITRETACTICS": "戦術",
+            "MITREGROUPS": "グループ",
+            "MITRESOFTWARE": "ソフトウェア",
+            "MITRE_TECHNIQUES": "手法",
+            "MITRE_SUB_TECHNIQUES": "サブ手法"
+        }
+    }
+}

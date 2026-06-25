@@ -1,0 +1,24 @@
+{
+    "MITRE_GROUPS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "그룹",
+            "PLURAL_NAME": "그룹"
+        },
+        "FIELDS": {
+            "MITREID": "Mitre ID",
+            "NAME": "이름",
+            "DESCRIPTION": "설명",
+            "NOTES": "내 메모",
+            "VERSION": "버전",
+            "CONTRIBUTORS": "기여자",
+            "URL": "URL",
+            "TECHNIQUES": "기술",
+            "SOFTWARE": "소프트웨어",
+            "LASTMODIFIED": "마지막 수정일",
+            "CREATED": "생성일",
+            "ALIASES": "관련 그룹",
+            "ALERTS": "알림",
+            "INCIDENTS": "인시던트"
+        }
+    }
+}

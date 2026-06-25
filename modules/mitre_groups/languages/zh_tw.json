@@ -1,0 +1,24 @@
+{
+    "MITRE_GROUPS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "群組",
+            "PLURAL_NAME": "群組"
+        },
+        "FIELDS": {
+            "MITREID": "Mitre ID",
+            "NAME": "名稱",
+            "DESCRIPTION": "描述",
+            "NOTES": "我的備註",
+            "VERSION": "版本",
+            "CONTRIBUTORS": "貢獻者",
+            "URL": "URL",
+            "TECHNIQUES": "技術",
+            "SOFTWARE": "軟體",
+            "LASTMODIFIED": "最後修改時間",
+            "CREATED": "建立時間",
+            "ALIASES": "相關群組",
+            "ALERTS": "警示",
+            "INCIDENTS": "事件"
+        }
+    }
+}

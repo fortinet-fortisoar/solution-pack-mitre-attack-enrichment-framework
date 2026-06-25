@@ -4,7 +4,7 @@
     "name": "Correlate MITRE ATT&CK Data",
     "aliasName": null,
     "tag": null,
-    "description": "Link MITRE ATT&CK data with Alert or Incident on the basis of Technique ID",
+    "description": "Link MITRE ATT&CK data with Alert or Case on the basis of Technique ID",
     "isActive": true,
     "debug": false,
     "singleRecordExecution": false,
@@ -31,7 +31,7 @@
                         "option": "Incident",
                         "step_iri": "\/api\/3\/workflow_steps\/fc81e6ce-9c2c-4fa3-8644-8d6ecd755e2b",
                         "condition": "{{ vars.input.records[0]['@type'] == 'Incident' }}",
-                        "step_name": "Correlate Incidents with MITRE Data"
+                        "step_name": "Correlate Cases with MITRE Data"
                     }
                 ],
                 "step_variables": []
@@ -42,6 +42,18 @@
             "stepType": "\/api\/3\/workflow_step_types\/12254cf5-5db7-4b1a-8cb1-3af081924b28",
             "group": null,
             "uuid": "c91c1b49-3f1c-4644-ba92-9a107e3b44eb"
+        },
+        {
+            "@type": "WorkflowStep",
+            "name": "Configuration",
+            "description": null,
+            "arguments": [],
+            "status": null,
+            "top": "165",
+            "left": "300",
+            "stepType": "\/api\/3\/workflow_step_types\/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+            "group": null,
+            "uuid": "1c1ff3ed-db9b-44b3-acc0-4c285ae034b6"
         },
         {
             "@type": "WorkflowStep",
@@ -64,7 +76,7 @@
         },
         {
             "@type": "WorkflowStep",
-            "name": "Correlate Incidents with MITRE Data",
+            "name": "Correlate Cases with MITRE Data",
             "description": null,
             "arguments": {
                 "arguments": [],
@@ -142,30 +154,9 @@
             "stepType": "\/api\/3\/workflow_step_types\/f414d039-bb0d-4e59-9c39-a8f1e880b18a",
             "group": null,
             "uuid": "8021921b-1946-43e5-a2c0-f7cf3546f030"
-        },
-        {
-            "@type": "WorkflowStep",
-            "name": "Configuration",
-            "description": null,
-            "arguments": [],
-            "status": null,
-            "top": "165",
-            "left": "300",
-            "stepType": "\/api\/3\/workflow_step_types\/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
-            "group": null,
-            "uuid": "1c1ff3ed-db9b-44b3-acc0-4c285ae034b6"
         }
     ],
     "routes": [
-        {
-            "@type": "WorkflowRoute",
-            "name": "Check Record Type -> Correlate Incidents with MITRE Data",
-            "targetStep": "\/api\/3\/workflow_steps\/fc81e6ce-9c2c-4fa3-8644-8d6ecd755e2b",
-            "sourceStep": "\/api\/3\/workflow_steps\/c91c1b49-3f1c-4644-ba92-9a107e3b44eb",
-            "label": "Incident",
-            "isExecuted": false,
-            "uuid": "5ed4305a-bba9-4763-95a7-8b74ab85c4c1"
-        },
         {
             "@type": "WorkflowRoute",
             "name": "Check Record Type -> Correlate Alerts with MITRE Data",
@@ -173,16 +164,18 @@
             "sourceStep": "\/api\/3\/workflow_steps\/c91c1b49-3f1c-4644-ba92-9a107e3b44eb",
             "label": "Alert",
             "isExecuted": false,
+            "group": null,
             "uuid": "44918f50-50d2-499b-be8a-43bcf0c02c3e"
         },
         {
             "@type": "WorkflowRoute",
-            "name": "Start -> Configuration",
-            "targetStep": "\/api\/3\/workflow_steps\/1c1ff3ed-db9b-44b3-acc0-4c285ae034b6",
-            "sourceStep": "\/api\/3\/workflow_steps\/8021921b-1946-43e5-a2c0-f7cf3546f030",
-            "label": null,
+            "name": "Check Record Type -> Correlate Cases with MITRE Data",
+            "targetStep": "\/api\/3\/workflow_steps\/fc81e6ce-9c2c-4fa3-8644-8d6ecd755e2b",
+            "sourceStep": "\/api\/3\/workflow_steps\/c91c1b49-3f1c-4644-ba92-9a107e3b44eb",
+            "label": "Incident",
             "isExecuted": false,
-            "uuid": "5a7d8b50-8ea8-4663-ab00-9566349f339f"
+            "group": null,
+            "uuid": "5ed4305a-bba9-4763-95a7-8b74ab85c4c1"
         },
         {
             "@type": "WorkflowRoute",
@@ -191,19 +184,32 @@
             "sourceStep": "\/api\/3\/workflow_steps\/1c1ff3ed-db9b-44b3-acc0-4c285ae034b6",
             "label": null,
             "isExecuted": false,
+            "group": null,
             "uuid": "e5d4d5d7-c191-4c4a-ae61-f74a2e168a17"
+        },
+        {
+            "@type": "WorkflowRoute",
+            "name": "Start -> Configuration",
+            "targetStep": "\/api\/3\/workflow_steps\/1c1ff3ed-db9b-44b3-acc0-4c285ae034b6",
+            "sourceStep": "\/api\/3\/workflow_steps\/8021921b-1946-43e5-a2c0-f7cf3546f030",
+            "label": null,
+            "isExecuted": false,
+            "group": null,
+            "uuid": "5a7d8b50-8ea8-4663-ab00-9566349f339f"
         }
     ],
     "groups": [],
     "priority": "\/api\/3\/picklists\/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
+    "playbookOrigin": "\/api\/3\/picklists\/b6d710a9-a8ec-41ec-8817-fe9fa062fcdd",
+    "isEditable": false,
     "uuid": "fa490f90-d8d9-40f7-bf37-88769ca195a6",
     "owners": [],
     "isPrivate": false,
     "deletedAt": null,
     "recordTags": [
         "Alert",
-        "Incident",
-        "Manual",
-        "Enrichment"
+        "Enrichment",
+        "Case",
+        "Manual"
     ]
 }

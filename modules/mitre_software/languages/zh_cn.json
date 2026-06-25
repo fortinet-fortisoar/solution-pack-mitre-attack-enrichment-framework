@@ -1,0 +1,26 @@
+{
+    "MITRE_SOFTWARE": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "软件",
+            "PLURAL_NAME": "软件"
+        },
+        "FIELDS": {
+            "INCIDENTS": "事件",
+            "ALERTS": "警报",
+            "MITREID": "Mitre ID",
+            "TYPE": "类型",
+            "MYNOTES": "我的笔记",
+            "ALIASES": "相关软件",
+            "NAME": "名称",
+            "PLATFORM": "平台",
+            "CONTRIBUTORS": "贡献者",
+            "VERSION": "版本",
+            "GROUPS": "组",
+            "TECHNIQUES": "技术",
+            "DESCRIPTION": "描述",
+            "SUBTECHNIQUES": "子技术",
+            "CREATED": "创建时间",
+            "LASTMODIFIED": "最后修改"
+        }
+    }
+}

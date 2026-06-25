@@ -1,6 +1,6 @@
 [
     "Alert",
-    "Incident",
+    "Case",
     "Manual",
     "PostCreate",
     "PostUpdate",

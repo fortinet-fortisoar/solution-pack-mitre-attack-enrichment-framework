@@ -1,10 +1,10 @@
 {
     "@type": "Workflow",
     "triggerLimit": null,
-    "name": "Link ATT&CK Technique to Alert (On Create)",
+    "name": "Link ATT&CK Technique to Case (On Update)",
     "aliasName": null,
     "tag": null,
-    "description": "Links MITRE technique or sub-technique to an alert, based on MITRE Attack ID",
+    "description": "Links MITRE technique or sub-technique to an case, based on MITRE Attack ID",
     "isActive": true,
     "debug": false,
     "singleRecordExecution": false,
@@ -13,7 +13,7 @@
     "synchronous": false,
     "collection": "\/api\/3\/workflow_collections\/c862c8b5-f841-44a5-983f-551625ca7d6d",
     "versions": [],
-    "triggerStep": "\/api\/3\/workflow_steps\/67cf33e8-bea8-47cd-9e38-bca922d7f0fa",
+    "triggerStep": "\/api\/3\/workflow_steps\/2523faea-0964-4628-adbd-06f742085f5d",
     "steps": [
         {
             "@type": "WorkflowStep",
@@ -32,16 +32,16 @@
             "left": "125",
             "stepType": "\/api\/3\/workflow_step_types\/74932bdc-b8b6-4d24-88c4-1a4dfbc524f3",
             "group": null,
-            "uuid": "3137fde0-cf60-463f-a1e3-ef4a933cf639"
+            "uuid": "286583b9-2683-4efe-8b72-180b73e13a46"
         },
         {
             "@type": "WorkflowStep",
             "name": "Start",
             "description": null,
             "arguments": {
-                "resource": "alerts",
+                "resource": "incidents",
                 "resources": [
-                    "alerts"
+                    "incidents"
                 ],
                 "step_variables": {
                     "input": {
@@ -59,6 +59,13 @@
                         {
                             "type": "primitive",
                             "field": "mitreattackid",
+                            "value": "",
+                            "operator": "changed",
+                            "_operator": "changed"
+                        },
+                        {
+                            "type": "primitive",
+                            "field": "mitreattackid",
                             "value": "false",
                             "operator": "isnull",
                             "_operator": "isnull"
@@ -69,34 +76,34 @@
             "status": null,
             "top": "30",
             "left": "125",
-            "stepType": "\/api\/3\/workflow_step_types\/ea155646-3821-4542-9702-b246da430a8d",
+            "stepType": "\/api\/3\/workflow_step_types\/9300bf69-5063-486d-b3a6-47eb9da24872",
             "group": null,
-            "uuid": "67cf33e8-bea8-47cd-9e38-bca922d7f0fa"
+            "uuid": "2523faea-0964-4628-adbd-06f742085f5d"
         }
     ],
     "routes": [
         {
             "@type": "WorkflowRoute",
             "name": "Start -> Link MITRE Techniques and sub techniques",
-            "targetStep": "\/api\/3\/workflow_steps\/3137fde0-cf60-463f-a1e3-ef4a933cf639",
-            "sourceStep": "\/api\/3\/workflow_steps\/67cf33e8-bea8-47cd-9e38-bca922d7f0fa",
+            "targetStep": "\/api\/3\/workflow_steps\/286583b9-2683-4efe-8b72-180b73e13a46",
+            "sourceStep": "\/api\/3\/workflow_steps\/2523faea-0964-4628-adbd-06f742085f5d",
             "label": null,
             "isExecuted": false,
             "group": null,
-            "uuid": "b031dec9-30b5-4538-8bbd-25d8da408032"
+            "uuid": "e108d649-9b34-4bf0-9a9d-93d8e7070304"
         }
     ],
     "groups": [],
     "priority": null,
     "playbookOrigin": "\/api\/3\/picklists\/b6d710a9-a8ec-41ec-8817-fe9fa062fcdd",
     "isEditable": false,
-    "uuid": "3cd8c0dc-d217-41ad-83f2-a650876289be",
+    "uuid": "918182fb-f91d-4f68-aa81-7baf75fd8e45",
     "owners": [],
     "isPrivate": false,
     "deletedAt": null,
     "recordTags": [
-        "Alert",
         "Enrichment",
-        "PostCreate"
+        "Case",
+        "PostUpdate"
     ]
 }

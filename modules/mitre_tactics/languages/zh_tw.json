@@ -1,0 +1,20 @@
+{
+    "MITRE_TACTICS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "戰術",
+            "PLURAL_NAME": "戰術列表"
+        },
+        "FIELDS": {
+            "MITREID": "Mitre ID",
+            "DOMAINS": "領域",
+            "NAME": "名稱",
+            "DESCRIPTION": "描述",
+            "MYNOTES": "我的筆記",
+            "TECHNIQUES": "技術",
+            "CREATED": "建立時間",
+            "LASTMODIFIED": "最後修改時間",
+            "ALERTS": "警示",
+            "INCIDENTS": "事件"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "ALERTS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "Alert",
+            "PLURAL_NAME": "Alerts"
+        },
+        "FIELDS": {
+            "MITREMITIGATIONS": "Mitigations",
+            "MITRETACTICS": "Tactics",
+            "MITREGROUPS": "Groups",
+            "MITRESOFTWARE": "Software",
+            "MITRE_TECHNIQUES": "Technique",
+            "MITRE_SUB_TECHNIQUES": "Sub-technique"
+        }
+    }
+}

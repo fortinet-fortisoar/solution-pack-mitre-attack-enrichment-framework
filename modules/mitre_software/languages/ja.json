@@ -1,0 +1,26 @@
+{
+    "MITRE_SOFTWARE": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "ソフトウェア",
+            "PLURAL_NAME": "ソフトウェア"
+        },
+        "FIELDS": {
+            "INCIDENTS": "インシデント",
+            "ALERTS": "アラート",
+            "MITREID": "Mitre ID",
+            "TYPE": "タイプ",
+            "MYNOTES": "マイノート",
+            "ALIASES": "関連ソフトウェア",
+            "NAME": "名前",
+            "PLATFORM": "プラットフォーム",
+            "CONTRIBUTORS": "貢献者",
+            "VERSION": "バージョン",
+            "GROUPS": "グループ",
+            "TECHNIQUES": "技術",
+            "DESCRIPTION": "説明",
+            "SUBTECHNIQUES": "サブ技術",
+            "CREATED": "作成日",
+            "LASTMODIFIED": "最終更新"
+        }
+    }
+}

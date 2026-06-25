@@ -1,0 +1,24 @@
+{
+    "MITRE_GROUPS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "Groupe",
+            "PLURAL_NAME": "Groupes"
+        },
+        "FIELDS": {
+            "MITREID": "ID Mitre",
+            "NAME": "Nom",
+            "DESCRIPTION": "Description",
+            "NOTES": "Mes notes",
+            "VERSION": "Version",
+            "CONTRIBUTORS": "Contributeurs",
+            "URL": "URL",
+            "TECHNIQUES": "Techniques",
+            "SOFTWARE": "Logiciel",
+            "LASTMODIFIED": "Dernière modification",
+            "CREATED": "Créé",
+            "ALIASES": "Groupes associés",
+            "ALERTS": "Alertes",
+            "INCIDENTS": "Incidents"
+        }
+    }
+}

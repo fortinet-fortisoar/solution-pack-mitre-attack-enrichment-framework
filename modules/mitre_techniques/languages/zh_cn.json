@@ -1,0 +1,29 @@
+{
+    "MITRE_TECHNIQUES": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "技术",
+            "PLURAL_NAME": "技术"
+        },
+        "FIELDS": {
+            "INCIDENTS": "事件",
+            "LASTMODIFIED": "最后修改",
+            "MITIGATIONS": "缓解措施",
+            "ALERTS": "警报",
+            "CREATED": "创建时间",
+            "NOTES": "我的笔记",
+            "GROUPS": "组",
+            "VERSION": "版本",
+            "PLATFORMS": "平台",
+            "DETECTION": "检测",
+            "PERMISSIONSREQUIRED": "所需权限",
+            "DATASOURCES": "数据源",
+            "MITREID": "Mitre ID",
+            "DESCRIPTION": "描述",
+            "NAME": "名称",
+            "TECHNIQUES": "子技术",
+            "SOFTWARE": "软件",
+            "TACTICS": "战术",
+            "CAPECID": "CAPEC ID"
+        }
+    }
+}

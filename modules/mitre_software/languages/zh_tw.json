@@ -1,0 +1,26 @@
+{
+    "MITRE_SOFTWARE": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "軟體",
+            "PLURAL_NAME": "軟體"
+        },
+        "FIELDS": {
+            "INCIDENTS": "事件",
+            "ALERTS": "警報",
+            "MITREID": "Mitre ID",
+            "TYPE": "類型",
+            "MYNOTES": "我的筆記",
+            "ALIASES": "相關軟體",
+            "NAME": "名稱",
+            "PLATFORM": "平台",
+            "CONTRIBUTORS": "貢獻者",
+            "VERSION": "版本",
+            "GROUPS": "群組",
+            "TECHNIQUES": "技術",
+            "DESCRIPTION": "描述",
+            "SUBTECHNIQUES": "子技術",
+            "CREATED": "建立時間",
+            "LASTMODIFIED": "最後修改"
+        }
+    }
+}

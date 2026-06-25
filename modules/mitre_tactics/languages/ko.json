@@ -1,0 +1,20 @@
+{
+    "MITRE_TACTICS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "전술",
+            "PLURAL_NAME": "전술 목록"
+        },
+        "FIELDS": {
+            "MITREID": "Mitre ID",
+            "DOMAINS": "도메인",
+            "NAME": "이름",
+            "DESCRIPTION": "설명",
+            "MYNOTES": "내 메모",
+            "TECHNIQUES": "기법",
+            "CREATED": "생성일",
+            "LASTMODIFIED": "최종 수정일",
+            "ALERTS": "알림",
+            "INCIDENTS": "사건"
+        }
+    }
+}

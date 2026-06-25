@@ -1,0 +1,29 @@
+{
+    "MITRE_TECHNIQUES": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "Technique",
+            "PLURAL_NAME": "Techniques"
+        },
+        "FIELDS": {
+            "INCIDENTS": "Incidents",
+            "LASTMODIFIED": "Dernière modification",
+            "MITIGATIONS": "Mesures d’atténuation",
+            "ALERTS": "Alertes",
+            "CREATED": "Créé",
+            "NOTES": "Mes notes",
+            "GROUPS": "Groupes",
+            "VERSION": "Version",
+            "PLATFORMS": "Plateformes",
+            "DETECTION": "Détection",
+            "PERMISSIONSREQUIRED": "Autorisations requises",
+            "DATASOURCES": "Sources de données",
+            "MITREID": "ID Mitre",
+            "DESCRIPTION": "Description",
+            "NAME": "Nom",
+            "TECHNIQUES": "Sous-techniques",
+            "SOFTWARE": "Logiciels",
+            "TACTICS": "Tactiques",
+            "CAPECID": "ID CAPEC"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "MITRE_SOFTWARE": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "Logiciel",
+            "PLURAL_NAME": "Logiciels"
+        },
+        "FIELDS": {
+            "INCIDENTS": "Incidents",
+            "ALERTS": "Alertes",
+            "MITREID": "ID Mitre",
+            "TYPE": "Type",
+            "MYNOTES": "Mes notes",
+            "ALIASES": "Logiciels associés",
+            "NAME": "Nom",
+            "PLATFORM": "Plateforme",
+            "CONTRIBUTORS": "Contributeurs",
+            "VERSION": "Version",
+            "GROUPS": "Groupes",
+            "TECHNIQUES": "Techniques",
+            "DESCRIPTION": "Description",
+            "SUBTECHNIQUES": "Sous-techniques",
+            "CREATED": "Créé",
+            "LASTMODIFIED": "Dernière modification"
+        }
+    }
+}
