@@ -55,7 +55,7 @@
             "uuid": "434e646d-928d-486c-9bf5-2813579310a9",
             "displayName": "{{ incidents }}",
             "descriptions": {
-                "singular": "Incidents"
+                "singular": "Cases"
             },
             "skipSerialization": true
         },

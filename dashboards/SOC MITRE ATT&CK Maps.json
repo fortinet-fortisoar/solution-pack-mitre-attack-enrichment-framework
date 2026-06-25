@@ -2,8 +2,9 @@
     "@context": "\/api\/3\/contexts\/Dashboard",
     "@type": "Dashboard",
     "uuid": "a199c165-7e40-47f9-a66d-9f4f75005c8d",
-    "displayName": "MITRE ATT&CK Matrices",
+    "displayName": "SOC MITRE ATT&CK Maps",
     "type": "rows",
+    "orderIndex": 60,
     "templateType": "dashboard",
     "roles": [
         "\/api\/3\/roles\/21d7a7c6-9d68-438f-b732-e8950c5f745b",

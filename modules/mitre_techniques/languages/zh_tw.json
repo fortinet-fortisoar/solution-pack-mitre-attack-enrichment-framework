@@ -5,7 +5,7 @@
             "PLURAL_NAME": "技術"
         },
         "FIELDS": {
-            "INCIDENTS": "事件",
+            "INCIDENTS": "案件",
             "LASTMODIFIED": "最後修改",
             "MITIGATIONS": "緩解措施",
             "ALERTS": "警示",

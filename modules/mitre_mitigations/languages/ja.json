@@ -7,7 +7,7 @@
         "FIELDS": {
             "LASTMODIFIED": "最終更新日",
             "MITREID": "Mitre ID",
-            "INCIDENTS": "インシデント",
+            "INCIDENTS": "ケース",
             "ALERTS": "アラート",
             "NAME": "名前",
             "DESCRIPTION": "説明",

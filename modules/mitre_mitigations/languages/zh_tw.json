@@ -7,7 +7,7 @@
         "FIELDS": {
             "LASTMODIFIED": "最後修改時間",
             "MITREID": "Mitre ID",
-            "INCIDENTS": "事件",
+            "INCIDENTS": "案件",
             "ALERTS": "警示",
             "NAME": "名稱",
             "DESCRIPTION": "描述",

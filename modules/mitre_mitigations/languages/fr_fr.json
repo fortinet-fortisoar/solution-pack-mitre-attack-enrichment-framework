@@ -7,7 +7,7 @@
         "FIELDS": {
             "LASTMODIFIED": "Dernière modification",
             "MITREID": "ID Mitre",
-            "INCIDENTS": "Incidents",
+            "INCIDENTS": "Cas",
             "ALERTS": "Alertes",
             "NAME": "Nom",
             "DESCRIPTION": "Description",

@@ -1,8 +1,8 @@
 {
     "INCIDENTS": {
         "MODULE_DETAILS": {
-            "SINGULAR_NAME": "事件",
-            "PLURAL_NAME": "事件"
+            "SINGULAR_NAME": "案件",
+            "PLURAL_NAME": "案件"
         },
         "FIELDS": {
             "MITRETECHNIQUES": "技術",

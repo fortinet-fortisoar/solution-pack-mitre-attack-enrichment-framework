@@ -6,7 +6,7 @@
         },
         "FIELDS": {
             "ALERTS": "Alertes",
-            "INCIDENTS": "Incidents",
+            "INCIDENTS": "Cas",
             "DETECTION": "Détection",
             "VERSION": "Version",
             "MITREID": "ID Mitre",
