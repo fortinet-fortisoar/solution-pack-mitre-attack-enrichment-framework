@@ -237,7 +237,8 @@
             "name": "Prepare Body for Sub Techniques",
             "description": null,
             "arguments": {
-                "bodyParam": "{ \"mitregroups\": {{vars.groupIRI | string}},\n\"mitretactics\": {{vars.tacticIRI | string}},\n\"mitresoftware\": {{vars.softwareIRI | string}},\n\"mitre_techniques\": {{vars.techniqueIRI | string}}, \n\"mitremitigations\": {{vars.mitigationIRI | string}},\"mitre_sub_techniques\": {{vars.subTechniqueIRI|string}}}"
+                "bodyParam": "{ \"mitregroups\": {{vars.groupIRI | string}},\n\"mitretactics\": {{vars.tacticIRI | string}},\n\"mitresoftware\": {{vars.softwareIRI | string}},\n\"mitre_techniques\": {{vars.techniqueIRI | string}}, \n\"mitremitigations\": {{vars.mitigationIRI | string}},\"mitre_sub_techniques\": {{vars.subTechniqueIRI|string}}}",
+                "bodyParamCase": "{ \"mitregroups\": {{vars.groupIRI | string}},\n\"mitretactics\": {{vars.tacticIRI | string}},\n\"mitresoftware\": {{vars.softwareIRI | string}},\n\"mitretechniques\": {{vars.techniqueIRI | string}}, \n\"mitremitigations\": {{vars.mitigationIRI | string}},\"mitresubtechniques\": {{vars.subTechniqueIRI|string}}}"
             },
             "status": null,
             "top": "570",
@@ -251,7 +252,8 @@
             "name": "Prepare Body for Techniques",
             "description": null,
             "arguments": {
-                "bodyParam": "{ \"mitregroups\": {{vars.groupIRI | string}},\n\"mitretactics\": {{vars.tacticIRI | string}},\n\"mitresoftware\": {{vars.softwareIRI | string}},\n\"mitre_techniques\": {{vars.techniqueIRI | string}}, \n\"mitremitigations\": {{vars.mitigationIRI | string}}}"
+                "bodyParam": "{ \"mitregroups\": {{vars.groupIRI | string}},\n\"mitretactics\": {{vars.tacticIRI | string}},\n\"mitresoftware\": {{vars.softwareIRI | string}},\n\"mitre_techniques\": {{vars.techniqueIRI | string}}, \n\"mitremitigations\": {{vars.mitigationIRI | string}}}",
+                "bodyParamCase": "{ \"mitregroups\": {{vars.groupIRI | string}},\n\"mitretactics\": {{vars.tacticIRI | string}},\n\"mitresoftware\": {{vars.softwareIRI | string}},\n\"mitretechniques\": {{vars.techniqueIRI | string}}, \n\"mitremitigations\": {{vars.mitigationIRI | string}}}"
             },
             "status": null,
             "top": "570",
@@ -288,7 +290,7 @@
             "arguments": {
                 "params": {
                     "iri": "{{vars.input.records[0]['@id']}}",
-                    "body": "{{vars.bodyParam}}"
+                    "body": "{%- if vars.input.records[0][\"@type\"] == \"Alert\" -%}{{vars.bodyParam}}{%-else-%}{{vars.bodyParamCase}}{%- endif -%}"
                 },
                 "message": {
                     "tags": [],
