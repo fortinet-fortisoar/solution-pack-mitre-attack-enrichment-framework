@@ -9,8 +9,10 @@
 | :---------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | MITRE ATT&CK&reg; | Facilitates replication of adversary tactics and techniques knowledge base on FortiSOAR&trade; with the MITRE ATT&CK&reg; knowledge base which details the real-world observations |
 
->[!WARNING]
->After deployment, this solution pack installs or upgrades the connector to the latest version.
+> [!WARNING]
+> 
+> After deployment, this solution pack installs or upgrades the connector to the latest version.
+> 
 
 ## Modules
 
@@ -58,7 +60,7 @@
 | Link ATT&CK Technique to Case (On Create) | Links MITRE technique or sub-technique to an case, when a Technique ID is added              |
 | Link ATT&CK Technique to Case (On Update) | Links MITRE technique or sub-technique to an case, when a Technique ID is updated or changed |
 
-# Next Steps
+## Next Steps
 
 | [Installation](./setup.md#installation) | [Configuration](./setup.md#configuration) | [Usage](./usage.md) |
 |-----------------------------------------|-------------------------------------------|---------------------|

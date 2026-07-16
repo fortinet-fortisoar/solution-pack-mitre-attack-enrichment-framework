@@ -4,7 +4,9 @@
 # Usage
 
 > [!NOTE]
+> 
 > After an upgrade, existing permissions in the **MITRE Admin** and **Full App Permission** roles remain unaffected.
+> 
 
 With MITRE ATT&CK&reg; Enrichment Framework, you can configure and schedule data ingestion using the MITRE ATT&CK&reg; connector. This connector fetches latest information about groups, mitigation, software, techniques and other information and places them in the appropriate modules.
 
@@ -48,7 +50,7 @@ With MITRE ATT&CK&reg; Enrichment Framework, you can configure and schedule data
 
 A scheduled data ingestion periodically fetches the latest information from the MITRE ATT&CK&reg; database.
 
-# Next Steps
+## Next Steps
 
 | [Installation](./setup.md#installation) | [Configuration](./setup.md#configuration) | [Contents](./contents.md) |
 |-----------------------------------------|-------------------------------------------|---------------------------|

@@ -16,5 +16,5 @@ MITRE ATT&CK&reg; Framework is a globally-accessible knowledge base of adversary
 
 # Next Steps 
  
-| [Installation](docs/setup.md#installation) | [Configuration](docs/setup.md#configuration) | [Usage](docs/usage.md) | [Contents](docs/contents.md) |
-|--------------------------------------------|----------------------------------------------|------------------------|------------------------------|
+| [Installation](./docs/setup.md#installation) | [Configuration](./docs/setup.md#configuration) | [Usage](./docs/usage.md) | [Contents](./docs/contents.md) |
+|----------------------------------------------|------------------------------------------------|--------------------------|--------------------------------|

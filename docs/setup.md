@@ -29,7 +29,7 @@ For more information on setting up data ingestion, see the [Configuring MITRE AT
 >[!IMPORTANT]
 >By default, data ingestion for MITRE is configured with sample data. To get complete MITRE data, please open the connector step from the data ingestion playbook and change the action from Get *MITRE Sample Data* to **Get MITRE Data**.
 
-# Next Steps
+## Next Steps
 
 | [Usage](./usage.md) | [Contents](./contents.md) |
 |---------------------|---------------------------|
