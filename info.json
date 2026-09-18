@@ -1,6 +1,6 @@
 {
     "name": "mITREATT&CKEnrichmentFramework",
-    "version": "2.2.2",
+    "version": "2.2.3",
     "type": "solutionpack",
     "local": true,
     "label": "MITRE ATT&CK Enrichment Framework",
@@ -16,7 +16,7 @@
     "certified": "true",
     "publisher": "Fortinet",
     "description": "Solution Pack for leveraging the MITRE ATT&CK Knowledge Base in FortiSOAR.",
-    "help": "https://github.com/fortinet-fortisoar/solution-pack-mitre-attack-enrichment-framework/blob/release/2.2.2/README.md",
+    "help": "https://github.com/fortinet-fortisoar/solution-pack-mitre-attack-enrichment-framework/blob/release/2.2.3/README.md",
     "category": [],
     "supportInfo": "Fortinet Customer Support",
     "iconLarge": null,
@@ -153,8 +153,7 @@
         "widgets": [
             {
                 "apiName": "mitreAttackSpread",
-                "name": "MITRE ATT&CK Alert Case Spread",
-                "version": "1.0.0"
+                "name": "MITRE ATT&CK Alert Case Spread"
             }
         ]
     }

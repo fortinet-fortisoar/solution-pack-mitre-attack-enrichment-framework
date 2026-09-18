@@ -2,4 +2,4 @@
 
 ## Bug Fixes
 
-- Renamed the dashboard *MITRE ATT&CK Matrices* to *SOC MITRE ATT&CK Maps*.
+- Updated Widget `MITRE ATT&CK Alert Case Spread` version to 1.0.3
